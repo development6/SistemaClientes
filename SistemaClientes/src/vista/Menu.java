@@ -279,14 +279,11 @@ public class Menu implements InterfMenu{
 				System.out.println("La opción no es válida");
 				break;
 			
-			
 			}
 			
 			
 		}while(opcion==1 || opcion==2 || opcion==3 || opcion==4 || opcion==5 );
 		
-		
 	}
 
-	
 }
