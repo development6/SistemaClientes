@@ -52,7 +52,6 @@ public class ClienteServicio {
 
 	}
 	
-	
 	public void agregarCliente(Cliente cliente) {
 		
 		if(cliente!=null) {
