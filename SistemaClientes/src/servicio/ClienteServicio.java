@@ -31,11 +31,6 @@ public class ClienteServicio {
 		return "ClienteServicio [listaClientes=" + listaClientes + "]";
 	}
 	
-	
-	
-	
-	
-	////////////////////////////////////////////////////////////////////////////
 
 	public void listarCliente() {
 
@@ -64,20 +59,13 @@ public class ClienteServicio {
 			this.listaClientes.add(cliente);
 		}
 		else {
-			System.out.println("esta vacio");
+			System.out.println("Valores de cliente vacios");
 		}
 		System.out.println("Se agregó nuevo cliente\n");
 		
 	}
 	
 	public void editarCliente(Cliente cliente) {
-		//si un valor fue cambiardo decir algo como cliente editado o una tontera asi
-		
-		//if(cliente.getRutCliente()!=null) {
-			
-		//}
-		
-		
 		
 		if(listaClientes == null || listaClientes.isEmpty()) {
 			System.out.println("No hay clientes en la lista para editar");
