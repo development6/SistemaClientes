@@ -241,8 +241,6 @@ public class Menu implements InterfMenu{
 	}
 	
 	
-	
-	
 	public void iniciarMenu() {
 	
 		int opcion =0;
