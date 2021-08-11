@@ -26,7 +26,6 @@ public class ExportadorTxt extends Exportador {
 				else if(cl.getNombreCategoria().equals(CategoriaEnum.INACTIVO)) {
 					categoria="Inactivo";
 				}
-				//bw.write("\n"+cl.getRutCliente()+" "+cl.getNombreCliente()+" "+cl.getApellidoCliente()+" "+cl.getAniosCliente()+" "+categoria+"\n");
 				pw.println("Datos Cliente:");
 				pw.println("RUN: "+cl.getRutCliente());
 				pw.println("Nombre: "+cl.getNombreCliente());
