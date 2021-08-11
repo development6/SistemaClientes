@@ -67,7 +67,6 @@ public class Menu implements InterfMenu{
 		String rut=sca.nextLine();
 		
 		for(int i=0; i<clienteServicio.listaClientes.size();i++) {
-			//System.out.println(clienteServicio.listaClientes.get(i).getRutCliente());
 			if(clienteServicio.listaClientes.get(i).getRutCliente().equals(rut)) {
 				if(opc==1) {
 					int opc11;
@@ -173,16 +172,6 @@ public class Menu implements InterfMenu{
 				System.out.println("No se ha encontrado información, RUN invalido");
 			}
 			
-			
-		}
-		
-		if(opc==1) {
-			
-		}
-		else if(opc==2) {
-			
-		}
-		else {
 			
 		}
 		
