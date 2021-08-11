@@ -14,9 +14,10 @@ public class ClienteServicioTest {
 
 	@Test
 	public void agrearClienteNullTest() {
+		//Si es null no se agrega
 		Cliente cliente=null;
 		clSer.agregarCliente(cliente);
-		Assert.assertNull(cliente);
+		assertNull(cliente);
 		
 	}
 	
@@ -24,7 +25,9 @@ public class ClienteServicioTest {
 	public void agregarClienteTest() {
 		Cliente cliente=new Cliente("12.577.846-5","Carlos","Zamudio","1 año");
 		clSer.agregarCliente(cliente);
-		assertTrue(cliente.getApellidoCliente().equals("Zamudio"));
+		//assertTrue(cliente.getApellidoCliente().equals("Zamudio"));
+		assertNotNull(cliente);
+		
 	}
 
 }
