@@ -56,11 +56,12 @@ public class ClienteServicio {
 		
 		if(cliente!=null) {
 			this.listaClientes.add(cliente);
+			System.out.println("Se agregó nuevo cliente\n");
 		}
 		else {
 			System.out.println("Valores de cliente vacios");
 		}
-		System.out.println("Se agregó nuevo cliente\n");
+		
 		
 	}
 	
